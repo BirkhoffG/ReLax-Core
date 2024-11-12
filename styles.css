@@ -1,0 +1,74 @@
+.cell {
+  margin-bottom: 1rem;
+}
+
+.cell > .sourceCode {
+  margin-bottom: 0;
+}
+
+.cell-output > pre {
+  margin-bottom: 0;
+}
+
+.cell-output > pre, .cell-output > .sourceCode > pre, .cell-output-stdout > pre {
+  margin-left: 0.8rem;
+  margin-top: 0;
+  background: none;
+  border-left: 2px solid lightsalmon;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cell-output > .sourceCode {
+  border: none;
+}
+
+.cell-output > .sourceCode {
+  background: none;
+  margin-top: 0;
+}
+
+div.description {
+  padding-left: 2px;
+  padding-top: 5px;
+  font-style: italic;
+  font-size: 135%;
+  opacity: 70%;
+}
+/* show_doc signature */
+blockquote > pre {
+  font-size: 14px;
+}
+
+.table {
+  font-size: 16px;
+  /* disable striped tables */
+  --bs-table-striped-bg: var(--bs-table-bg);
+}
+
+.quarto-figure-center > figure > figcaption {
+  text-align: center;
+}
+
+div.doc-sig {
+  /* background-color: aqua; */
+  font-family: var(--bs-font-monospace);
+  border-left: .25rem solid lightsalmon;
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  background-color: #f8f8f8;
+  padding: .625rem 1.0rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.doc-title{
+  background-color: #cde8ef;
+  /* background-color: lightgray; */
+  padding: 0.5rem;
+  margin-top: calc(max(2.5rem, 1vh));
+  border-radius: 1rem;
+  text-align: left;
+  /* font-size: 1rem; */
+  word-wrap: break-word;
+}
